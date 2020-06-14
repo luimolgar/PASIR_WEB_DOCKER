@@ -1,0 +1,88 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body{ 
+ margin:0; 
+ padding:0; 
+ background-color:#D6EC8F; 
+ } 
+ 
+#pagewidth{ }
+ 
+#maincol{
+ background-color: #D6EC8F;  
+ position: relative; 
+ }
+  form {
+    padding: 1em;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+  form input {
+    margin-bottom: 1rem;
+   border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: #2EA082;
+    padding: 0.7em;
+    border: 0;
+  }
+#footer{
+ height:150px; 
+  background-color:#69c16f; 
+ clear:both;
+ display:block;
+ overflow:auto;
+} 
+ 
+h1,h2,h3,h4,label {
+ text-align: center;
+}
+
+.clearfix:after {
+ content: "."; 
+ display: block; 
+height: 0; 
+ clear: both; 
+ visibility: hidden;
+ }
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */ 
+/*P{ font-family:sans-serif; background-color:#665744; }*/
+PRE{ font-family:sans-serif; background-color:#D6EC8F; }
+TABLE{background-color:#69C16F; }
+TR{background-color:#D6EC8F; color:black;}
+TD{color:;}
+HEADER {background-color:#2EA082;}
+SELECT{color:#81bda4; }
+
+
+input:focus {
+    outline: 3px solid gold;
+  }
+  
+  @media (min-width: 400px) {
+    form {
+      overflow: hidden;
+    }
+  
+    label {
+      float: left;
+      width: 200px;
+    }
+  
+    input {
+      float: left;
+      width: calc(100% - 200px);
+    }
